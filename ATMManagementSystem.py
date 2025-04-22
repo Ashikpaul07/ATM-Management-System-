@@ -2,7 +2,7 @@ class ATM:
     def __init__(self, initial_balance=0):
         self.balance = initial_balance
         self.transaction_history = []
-
+#error fixed
     def check_balance(self):
         print(f"\n✅ Your current balance is: ₹{self.balance}")
         self.transaction_history.append("Checked balance")
